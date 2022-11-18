@@ -1,1 +1,1 @@
-https://github.com/Gau71/-git-clone-http-github.com-itmuniversity.github.io
+https://gau71.github.io/-git-clone-http-github.com-itmuniversity.github.io/
