@@ -387,15 +387,7 @@ nav .fa{
         cursor: pointer;
     }
     
-    .na .fa {
-        display: block;
-        color: wheat;
-        margin: 10px;
-        font-size: 28px;
-        cursor: pointer;
-        margin: 330px 280px;
-        position: fixed;
-    }
+    
     .nav-links ul {
         padding: 10px;
 
