@@ -365,6 +365,9 @@ nav .fa{
         padding: 5px 5px;
 
     }
+    body{
+        overflow-x: hidden;
+    }
 
     .nav-links {
         position: absolute;
