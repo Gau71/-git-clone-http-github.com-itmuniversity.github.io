@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 .header {
     min-height: 100vh;
     min-width: 100vw;
@@ -12,8 +14,8 @@ html{
     background-position: center;
     background-size: cover;
     position: relative;
-   
-    
+
+
 }
 
 
@@ -48,7 +50,7 @@ nav img {
     font-size: 20px;
 }
 
-    
+
 .nav-links ul li::after {
     content: '';
     height: 2px;
@@ -57,16 +59,15 @@ nav img {
     display: block;
     transition: 0.5s;
     margin: auto
-
 }
 
 
-.nav-links ul li:hover::after{
+.nav-links ul li:hover::after {
     width: 100%;
 
 }
 
-    
+
 
 
 .text-box {
@@ -115,7 +116,7 @@ h2 {
     font-size: 37px;
     font-weight: 600;
     text-align: center;
-    
+
 }
 
 p {
@@ -125,12 +126,15 @@ p {
     line-height: 22px;
     padding: 10px;
 }
-nav .fa{
+
+nav .fa {
     display: none;
 }
-.na .fa{
+
+.na .fa {
     display: none;
 }
+
 .course {
     width: 80%;
     margin: auto;
@@ -300,7 +304,7 @@ nav .fa{
     border-radius: 10px;
     text-align: center;
     padding: 100px 0;
-    
+
 }
 
 .cta h1 {
@@ -335,7 +339,7 @@ nav .fa{
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
-    
+
 }
 
 .text-box h1 {
@@ -358,21 +362,22 @@ nav .fa{
         font-size: 10px;
 
     }
-   
+
 
     .nav-links ul li {
         display: block;
         padding: 5px 5px;
 
     }
-    body{
+
+    body {
         overflow-x: hidden;
     }
 
     .nav-links {
         position: absolute;
         background: #777;
-        height: 58vh;
+        height: 40vh;
         width: 120px;
         top: 0;
         right: -120px;
@@ -389,11 +394,11 @@ nav .fa{
         font-size: 22px;
         cursor: pointer;
     }
-    
-    
-    .nav-links ul {
-        padding: 10px;
 
+
+    .nav-links ul li {
+        padding: 10px;
+        margin: 10px;
     }
 
     .nav-links ul li a::after {
@@ -405,7 +410,8 @@ nav .fa{
         transition: 0.3s;
 
     }
-    .nav-links ul li a:hover::after{
+
+    .nav-links ul li a:hover::after {
         width: 55px;
     }
 
