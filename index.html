@@ -5,40 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>itm universty</title>
+    <title>ITM</title>
     <link rel="stylesheet" href="new.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 <body>
     <section class="header">
         <nav>
-            <a href=""><img src="logo.jpeg"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about" onclick="about()">About</a></li>
-                    <li><a href="#course" onclick="course()">Course</a></li>
-
-                    <li><a href="#blog" onclick="blog()">Blog</a></li>
-                    <li><a href="#contact" onclick="contact()">Contact</a></li>
-
-                </ul>
-
-
+            <a href=""><img src="logo.png"></a>
+            <div id="show">
+                <div class="nav-links" id="navLinks">
+                    <div id="menu">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <!-- <div id="menu"> -->
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about" onclick="about()">About</a></li>
+                        <li><a href="#course" onclick="course()">Course</a></li>
+                        <li><a href="#blog" onclick="blog()">Blog</a></li>
+                        <li><a href="#contact" onclick="contact()">Contact</a></li>
+                    </ul>
+                </div>
+                </div>
             </div>
+
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>ITM UNIVERSITY</h1>
-            <p> Think Big Think Beyonde
+            <p> Think Big Think Beyond
 
             </p>
-            <a href="https://www.shiksha.com/university/itm-university-gwalior-36449/placement" class="hero-btn">Vist Us
+            <a href="https://www.shiksha.com/university/itm-university-gwalior-36449/placement" class="hero-btn">Visit
+                Us
                 To Know More</a>
         </div>
 
-       
     </section>
     <section class="course" id="course">
         <h2>Courses We offer</h2>
@@ -56,9 +58,7 @@
                 <h4>Degree</h4>
                 <p>ITM University Gwalior you get an opportunity to link your studies to your career plan and personal
                     goals by using combination of compulsory credits, optional credits, self-learning credits, MOOC,
-                    non-cgpa credits for curricular and extra-curricular activities. Here you get enormous opportunity
-                    to share your ideas and domain expertise with industry leaders. Technically you can craft your own
-                    degree</p>
+                    non-cgpa credits for curricular and extra-curricular activities. </p>
             </div>
             <div class="course-col">
                 <h4>Post Gradution</h4>
@@ -81,7 +81,7 @@
             <div class="campus-col">
                 <img src="newton.jpeg">
                 <div class="layer">
-                    <h4>Shitoli</h4>
+                    <h4>Sithouli</h4>
                 </div>
             </div>
             <div class="campus-col">
@@ -98,17 +98,17 @@
         <div class="row">
 
             <div class="facilities-col">
-
+    
                 <img src="libarry.jpeg">
 
-                <h4>Libarary</h4>
-                <p>Akshardham Central Library occupies a place of pride in ITM Gwalior and is an essential component of
-                    the Institute's outstanding research and education mission. It serves as a creative and innovative
-                    partner in supporting teaching, learning, and research activities of the Institute. The pleasant
-                    ambience and the well-furnished library with spacious reading rooms create an atmosphere of
-                    serenity. It is the most lively place on the campus providing a conducive environment that enables
+                <h4>Library</h4>
+                    
+                    <p >Akshardham Central Library occupies a place of pride in ITM Gwalior and is an essential component of
+                    the Institute's outstanding research and education mission. It is the most lively place on the
+                    campus providing a conducive environment that enables
                     learning and advancement of knowledge and promotes discovery</p>
-
+                    
+        
             </div>
 
             <div class="facilities-col">
@@ -180,7 +180,7 @@
             <a href="" class="fab fa-twitter"></a>
             <a href="https://instagram.com/itmuniversitygwl?igshid=YmMyMTA2M2Y=" class="fab fa-instagram"></a>
             <a href="https://www.linkedin.com/school/itm-university-gwalior/" class="fab fa-linkedin-in"></a>
-            <p>copy right &copy;2022 Create with gautamsahu</p>
+            <p>copyright &copy;2022 Created By Gautam</p>
 
         </div>
     </section>
@@ -190,13 +190,17 @@
     <script>
         var navLinks = document.getElementById("navLinks");
         function showMenu() {
-            navLinks.style.right = "0";
+            var st = '<div class="nav-links" id="navLinks"><i class="fa fa-times" onclick="hideMenu()"></i><ul><li><a href="#home">Home</a></li><li><a href="#about" onclick="about()">About</a></li><li><a href="#course" onclick="course()">Course</a></li><li><a href="#blog" onclick="blog()">Blog</a></li><li><a href="#contact" onclick="contact()">Contact</a></li></ul></div>'
+            document.getElementById("show").innerHTML = st;
+            // navLinks.style.right = "0";
         }
+
         var navLinks = document.getElementById("navLinks");
         function hideMenu() {
-            navLinks.style.right = "-200px";
+            document.getElementById("show").innerHTML = "<br>";
+            // navLinks.style.right = "-200px";
         }
-       
+
 
     </script>
 </body>
