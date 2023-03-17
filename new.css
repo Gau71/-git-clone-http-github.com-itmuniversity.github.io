@@ -10,7 +10,7 @@ html {
 .header {
     min-height: 100vh;
     min-width: 100vw;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(WhatsApp\ Image\ 2022-04-24\ at\ 19.25.18.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(college.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -101,6 +101,24 @@ nav img {
     border-radius: 10px;
 }
 
+.hero-btn-1 {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid rgb(129, 16, 16);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #f44336;
+    position: relative;
+    cursor: pointer;
+    color: rgb(249, 246, 246);
+    border-radius: 10px;
+}
+.hero-btn-1:hover {
+    border: 1px solid #f44336;
+    background: #e7e0e0;
+    color:rgb(135, 45, 45);
+    transition: 1s;
+}
 .hero-btn:hover {
     border: 1px solid #f44336;
     background: #f44336;
@@ -164,7 +182,7 @@ nav .fa {
 }
 
 .course-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.2);
 }
 
 .campus {
@@ -612,7 +630,7 @@ nav .fa {
         margin-bottom: 25px;
         margin-top: 20px;
         font-weight: 600;
-        background-color: #777;
+        /* background-color: #777; */
     }
 
     .icons .fab {
