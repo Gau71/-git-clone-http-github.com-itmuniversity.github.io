@@ -1,0 +1,778 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: black;
+    background-image: url("1920x1080-black-w4sh3k4mi3fiygum.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.hg img{
+    border-radius: 50px;
+}
+.nav-links h3{
+    display: flex;
+    margin: 20px 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.nav-links {
+    width: 100vw;
+    height: 12vh;
+    text-align: left;
+    background-color: black;
+    list-style: none;
+    position: fixed;
+display: flex;
+    top: 0;
+
+    transition: 1s;
+    
+
+}
+
+.nav-links ul {
+    margin: 20px 10px 0px 510px;
+    display: flex;
+}
+
+
+.menu {
+    color: white;
+    padding: 10px 0px 5px 0px;
+}
+
+
+
+.nav-links ul li {
+    display: flex;
+    margin: 10px 12px;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li:hover {
+    background-color: brown;
+    text-align: center;
+
+    border-radius: 25px;
+    padding: 2px 8px;
+    width: fit-content;
+    height: fit-content;
+    transition: 0.1s;
+
+}
+
+.footer {
+    margin: 5px 0px 0px 515px;
+    background-color: white;
+    width: 255px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.footer:hover {
+    background-color: #777;
+    border: 1px solid blueviolet;
+    transition: 0.1s;
+
+}
+
+.footer:hover {
+    background-color: blueviolet;
+
+}
+
+
+nav .fa {
+    display: block;
+    color: wheat;
+    margin: 10px;
+    font-size: 30px;
+    position: fixed;
+    cursor: pointer;
+
+
+}
+nav .lo{
+    display: none;
+}
+.gautam{
+    color: lavenderblush;
+    margin: 20px 0px 5px 15px;
+    font-size: 27px;
+}
+
+
+
+.see {
+    background-color: brown;
+    margin: 0px 547px;
+    padding: 5px 5px;
+    width: 180px;
+    border-radius: 2px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.see a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.see:hover {
+    border: 2px solid white;
+    transition: 0.1s;
+}
+
+.prot:hover {
+    border: 2px solid blueviolet;
+}
+
+.po img:hover {
+    border: 5px solid blueviolet;
+}
+
+
+.ins{
+   
+        margin: 35px 0px 0px 515px;
+        
+        width: 255px;
+        font-size: 18px;
+        border-radius: 4px;
+        border: 1px solid brown;
+        text-align: center;
+    
+ 
+    
+}
+
+
+.po img {
+    display: inline-block;
+    width: 460px;
+    height: 460px;
+    margin: 6px 235px;
+    margin: 0px 0px 0px 40px;
+    border-radius: 230px;
+    border: 5px solid black;
+}
+
+
+.po {
+    margin: 90px 20px 0px 20px;
+    display: inline-flex;
+    color: white;
+
+}
+
+.mg {
+   
+    display: inline-block;
+    margin: 80px 0px 10px 385px;
+    padding: 50px 30px;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+.mg h1{
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    margin: 15px;
+}
+.mg h4,h3{
+    font-family: sans-serif;
+    margin: 20px 0px;
+}
+
+.prot {
+    margin: 90px 40px;
+    color: black;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black  ;
+    border-radius: 5px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ab {
+    margin: 230px 0px 0px 0px;
+   
+    width: 100vw;
+    height: 600px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.sa{
+    display: flex;
+    margin: 120px 50px;
+}
+.ab img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid brown;
+}
+
+.fon a {
+    text-decoration: none;
+    color: brown;
+}
+
+
+
+.fon {
+    width: 1000px;
+    height: 400px;
+    margin: 0px 10px 50px 100px;
+    font-size: 31px;
+    
+}
+
+.ab h1 {
+  
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', ' Geneva', Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* skill section **************************************************** */
+
+.skill-section {
+    margin: 50px 0px;
+    text-align: center;
+    
+    
+   
+    width: 100vw;
+    height: 650px;
+    position: relative;
+    color: white;
+    
+
+}
+
+.heading {
+    margin: 20px  0px 150px 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', ' Geneva', Verdana, sans-serif;
+}
+
+.skills-container {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    color: white;
+}
+
+.skill-card {
+    position: relative;
+}
+
+.skill-img {
+    display: block;
+    margin: auto;
+    height: 80px;
+    width: 100px;
+    border: 1.5px solid brown;
+}
+
+.skill-name {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+    color: white;
+}
+
+.skill-info {
+    text-align: center;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+
+.skill-level {
+    position: absolute;
+    right: 55;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 5px solid;
+    top: 40px;
+    left: 55%;
+}
+
+.skill-card:nth-child(1) .skill-level {
+    background: #ff4f4f28;
+    border-color: #ff4f4f;
+    color: #ff4f4f;
+}
+
+.skill-card:nth-child(2) .skill-level {
+    background: #4fa0ff28;
+    border-color: #4fa0ff;
+    color: #4fa0ff;
+}
+
+.skill-card:nth-child(3) .skill-level {
+    background: #ffed4f28;
+    border-color: #ffed4f;
+    color: #ffed4f;
+}
+
+.skill-card:nth-child(4) .skill-level {
+    background: #52ff4f28;
+    border-color: #52ff4f;
+    color: #52ff4f;
+}
+
+.skill-card:nth-child(5) .skill-level {
+    background: #4fdfff28;
+    border-color: #4fdfff;
+    color: #4fdfff;
+}
+
+.skill-card:nth-child(6) .skill-level {
+    background: #09644180;
+    border-color: #ff4fff6b;
+    color: hsl(310, 92%, 49%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* project section ******************************************************** */
+
+
+.mb {
+    margin: 50px 0px;
+
+    text-align: center;
+    width: 100vw;
+    height: 650px;
+    position: relative;
+    
+}
+
+.mb h1 {
+    margin: 200px  0px 100px 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', ' Geneva', Verdana, sans-serif;
+}
+.project-container {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    color: #fff;
+
+}
+
+.project1{
+    height: 550px;
+    width: 250px;
+    margin: 20 30px;
+    border: 2px solid brown;
+    position: relative;
+
+}
+.project-img{
+    display: block;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    opacity: 0.5;
+}
+.project-name {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px 10px;
+    color: white;
+}
+
+.project-info {
+    text-align: center;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    margin: 0px 10px 5px 10px;
+}
+.online{
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+
+}
+.button{
+    height: 20px;
+    width: 90px;
+    background-color: #222;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+
+    margin: 0px 2px 0px 5px;
+    
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.button:hover{
+  background-color: #4fa0ff;
+  transition: 0.1s;
+}
+.use{
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}
+.us{
+    height: 20px;
+    width: 70px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+
+    margin: 0px 3px 0px 0px;
+}
+.us a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*certificate section ******************************************************************  */
+
+.mb1 {
+    margin: 50px 0px;
+
+    text-align: center;
+    width: 100vw;
+    height: 650px;
+    position: relative;
+    
+}
+
+.mb1 h1 {
+    margin: 200px  0px 100px 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', ' Geneva', Verdana, sans-serif;
+}
+.certificate-container {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    color: #fff;
+}
+
+.certificate1{
+    height: 550px;
+    width: 250px;
+    margin: 20 10px;
+    border: 2px solid brown;
+    position: relative;
+    
+
+}
+
+.certificate1-img{
+    display: block;
+    margin: auto;
+    height: 350px;
+    width: 250px;
+  
+}
+
+.cer-name {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px 10px;
+    color: white;
+}
+.online1{
+    margin: 10px 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* message section ************************************************ */
+
+.kb {
+    display: inline-block;
+    margin: 60px;
+    text-align: center;
+    border: 1px solid brown;
+    width: 100vw;
+    height: 600px;
+
+}
+
+.kb h1 {
+    margin: 20px 0px;
+    text-align: center;
+    color: white;
+
+}
+
+.field {
+    position: relative;
+    height: 50px;
+    width: 60%;
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+    margin: 50px 100px;
+
+}
+
+.field input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+
+
+}
+
+.field:hover {
+    border: 2px solid brown;
+    transition: 0.1s;
+}
+
+.space {
+    margin-top: 16px;
+
+}
+
+.field span {
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+
+}
+.sum {
+    position: relative;
+    height: 50px;
+    width: 25%;
+    display: flex;
+
+    border-radius: 7px;
+    border: 2px solid blueviolet;
+    margin: 50px 190px;
+    align-items: center;
+    background-color: black;
+
+}
+.sum input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+
+
+}
+.sum:hover{
+    background-color: brown;
+    border: violet;
+    transition: 0.1s;
+}
+
+.field .fas {
+    margin: 0px 1px 0px 15px;
+}
+
+
+.hg {
+    width: 70px;
+    height: 70px;
+    border: 1px solid brown;
+    margin: 0px 0px 0px 30px;
+    border-radius: 40px;
+    display: flex;
+
+}
+
+nav .fa {
+    display: none;
+
+}
+
+.map {
+    display: flex;
+    margin: 200px 0px 0px;
+}
+
+.copy{
+    width: 100vw;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 8px;
+   
+}
+
+
+.fab{
+    margin: 10px 10px 0px 40px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 407px;
+    height: 441px;
+    display: flex;
+    margin: 130px 60px;
+    border: 3px solid brown;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 407px;
+    height: 441px;
+}
+
+.gmap_iframe {
+    width: 407px !important;
+    height: 441px !important;
+
+}
+.ins1{
+   
+    margin: 20px 0px 0px 575px;
+    
+    width: 255px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid brown;
+    text-align: center;
+
+
+
+}
